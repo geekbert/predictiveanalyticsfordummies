@@ -28,4 +28,6 @@ for i in range(0, pca_2d.shape[0]):
     	c3 = pl.scatter(pca_2d[i,0], pca_2d[i,1], c='b', marker='*')
 pl.legend([c1,c2,c3], ['Setosa', 'Versicolor', 'Virginica']) 
 pl.title("Iris training dataset with 3 classes and known outcomes") 
-pl.show() 
+#pl.show() 
+pl.savefig('plot.png')
+
