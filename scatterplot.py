@@ -29,5 +29,5 @@ for i in range(0, pca_2d.shape[0]):
 pl.legend([c1,c2,c3], ['Setosa', 'Versicolor', 'Virginica']) 
 pl.title("Iris training dataset with 3 classes and known outcomes") 
 #pl.show() 
-pl.savefig('plot.png')
+pl.savefig('plot.png', bbox_inches='tight')
 
